@@ -39,7 +39,7 @@ function findUserById(id) {
         
         // add appropriate code here
      catch (error) {
-        return "Cannot read property 'firstName' of undefined"; // Change this line
+        return `Cannot read property ${users.id}`; // Change this line
         console.log(); // Change this line
     }
 }
